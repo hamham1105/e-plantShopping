@@ -210,7 +210,12 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  
+  .disabled {
+  background-color: #878787 !important;
+  cursor: not-allowed;
+  transition: 0.35s ease-in-out;
+  }
+
   .product-button:hover {
     background-color: #45a049;
   }
